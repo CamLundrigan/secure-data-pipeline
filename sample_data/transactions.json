@@ -39,6 +39,14 @@
       "account": "ACC123456",
       "description": "Gas station",
       "merchant": "Shell Station"
+    },
+    {
+      "transaction_id": "TXN006",
+      "amount": 12.50,
+      "date": "2024-01-20",
+      "account": "ACC123456",
+      "description": "Coffee",
+      "merchant": "Starbucks"
     }
   ]
 }
