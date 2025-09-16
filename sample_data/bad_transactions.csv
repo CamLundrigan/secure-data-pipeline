@@ -1,0 +1,11 @@
+transaction_id,amount,date,account,description,merchant
+TXN011,150.75,2024-01-25,ACC123456,Restaurant meal,Joes Pizza
+TXN012,,2024-01-26,ACC123456,Online purchase,Amazon
+TXN013,89.99,invalid-date,ACC789012,ATM withdrawal,Cash Machine
+TXN014,-500.00,2024-01-27,ACC789012,Salary deposit,Employer Corp
+TXN015,999999999,2024-01-28,ACC123456,Gas station,Shell Station
+TXN016,45.50,2024-01-29,,Gas station,Shell Station
+TXN001,150.75,2024-01-30,ACC123456,Duplicate ID,Joes Pizza
+TXN017,abc,2024-01-31,ACC123456,Invalid amount,Test Store
+TXN018,75.00,2024-13-32,ACC123456,Invalid date,Test Store
+TXN019,25.00,2024-01-32,ACC123456,Invalid day,Test Store

@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "transaction_id": "TXN001",
+      "amount": 150.75,
+      "date": "2024-01-15",
+      "account": "ACC123456",
+      "description": "Restaurant meal",
+      "merchant": "Joes Pizza"
+    },
+    {
+      "transaction_id": "TXN002",
+      "amount": 89.99,
+      "date": "2024-01-16",
+      "account": "ACC123456",
+      "description": "Online purchase",
+      "merchant": "Amazon"
+    },
+    {
+      "transaction_id": "TXN003",
+      "amount": 25.00,
+      "date": "2024-01-17",
+      "account": "ACC789012",
+      "description": "ATM withdrawal",
+      "merchant": "Cash Machine"
+    },
+    {
+      "transaction_id": "TXN004",
+      "amount": 1200.00,
+      "date": "2024-01-18",
+      "account": "ACC789012",
+      "description": "Salary deposit",
+      "merchant": "Employer Corp"
+    },
+    {
+      "transaction_id": "TXN005",
+      "amount": 45.50,
+      "date": "2024-01-19",
+      "account": "ACC123456",
+      "description": "Gas station",
+      "merchant": "Shell Station"
+    }
+  ]
+}
