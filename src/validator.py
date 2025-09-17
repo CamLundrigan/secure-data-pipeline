@@ -61,8 +61,12 @@ class DataValidator:
         
         # 4. Check for empty values
         for field in self.required_fields:
-            if field in transaction and not transaction[field].strip():
-                errors.append(f"Empty value for required field: {field}")
+            if field in transaction:
+                value = transaction[field]
+                if isinstance(value, str) and not value.strip():
+                    errors.append(f"Empty value for required field: {field}")
+                elif value is None or value == "":
+                    errors.append(f"Empty value for required field: {field}")
         
         return errors
 
