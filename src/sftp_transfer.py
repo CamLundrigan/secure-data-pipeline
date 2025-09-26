@@ -30,8 +30,36 @@ class SFTPClient:
             self.sftp = ssh_client.open_sftp()
             self.transport = ssh_client.get_transport()
             
-            print(f"✅ Connected to {self.host}")
+            print(f" Connected to {self.host}")
             
         except Exception as e:
-            print(f"❌ Connection failed: {e}")
+            print(f" Connection failed: {e}")
             raise
+    
+    def disconnect(self):
+        """Close the SFTP connection"""
+        if self.sftp:
+            self.sftp.close()
+        if self.transport:
+            self.transport.close()
+        print(f" Disconnected from {self.host}")
+    
+    def list_files(self, remote_directory="/"):
+        """List files in a remote directory"""
+        try:
+            files = self.sftp.listdir(remote_directory)
+            print(f" Files in {remote_directory}: {files}")
+            return files
+        except Exception as e:
+            print(f" Error listing files: {e}")
+            return []
+    
+    def download_file(self, remote_file, local_file):
+        """Download a file from server to local computer"""
+        try:
+            self.sftp.get(remote_file, local_file)
+            print(f" Downloaded: {remote_file} -> {local_file}")
+            return True
+        except Exception as e:
+            print(f" Download failed: {e}")
+            return False
