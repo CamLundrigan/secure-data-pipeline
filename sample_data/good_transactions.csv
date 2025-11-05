@@ -1,0 +1,11 @@
+transaction_id,amount,date,account,description,merchant
+TXN001,150.75,2024-01-15,ACC123456,Restaurant meal,Joes Pizza
+TXN002,89.99,2024-01-16,ACC123456,Online purchase,Amazon
+TXN003,25.00,2024-01-17,ACC789012,ATM withdrawal,Cash Machine
+TXN004,1200.00,2024-01-18,ACC789012,Salary deposit,Employer Corp
+TXN005,45.50,2024-01-19,ACC123456,Gas station,Shell Station
+TXN006,75.00,2024-01-20,ACC123456,Grocery store,Safeway
+TXN007,200.00,2024-01-21,ACC789012,Utility bill,PG&E
+TXN008,15.99,2024-01-22,ACC123456,Netflix subscription,Netflix
+TXN009,350.00,2024-01-23,ACC789012,Insurance payment,State Farm
+TXN010,12.50,2024-01-24,ACC123456,Coffee shop,Starbucks

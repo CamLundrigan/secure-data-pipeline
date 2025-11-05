@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+  <transaction>
+    <transaction_id>TXN001</transaction_id>
+    <amount>150.75</amount>
+    <date>2024-01-15</date>
+    <account>ACC123456</account>
+    <description>Restaurant meal</description>
+    <merchant>Joes Pizza</merchant>
+  </transaction>
+  <transaction>
+    <transaction_id>TXN002</transaction_id>
+    <amount>89.99</amount>
+    <date>2024-01-16</date>
+    <account>ACC123456</account>
+    <description>Online purchase</description>
+    <merchant>Amazon</merchant>
+  </transaction>
+  <transaction>
+    <transaction_id>TXN003</transaction_id>
+    <amount>25.00</amount>
+    <date>2024-01-17</date>
+    <account>ACC789012</account>
+    <description>ATM withdrawal</description>
+    <merchant>Cash Machine</merchant>
+  </transaction>
+  <transaction>
+    <transaction_id>TXN004</transaction_id>
+    <amount>1200.00</amount>
+    <date>2024-01-18</date>
+    <account>ACC789012</account>
+    <description>Salary deposit</description>
+    <merchant>Employer Corp</merchant>
+  </transaction>
+  <transaction>
+    <transaction_id>TXN005</transaction_id>
+    <amount>45.50</amount>
+    <date>2024-01-19</date>
+    <account>ACC123456</account>
+    <description>Gas station</description>
+    <merchant>Shell Station</merchant>
+  </transaction>
+</transactions>
